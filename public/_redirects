@@ -1,0 +1,7 @@
+/\* /index.html 200
+
+# when a user navigates to https://miette-frontend.onrender.com/feed or refreshes the page on any route, Render looks for a file called feed in the built output — which doesn't exist
+
+# this redirect rule tells Render to serve index.html for any path and return a 200 status, letting React Router handle the routing on the client side
+
+# without this, every direct URL access or page refresh returns a 404.
